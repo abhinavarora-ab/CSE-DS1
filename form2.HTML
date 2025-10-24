@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION FORM</title>
+</head>
+<body>
+    <h1><center>Student Regisration Form </center></h1>
+    <form action="/submit.php"></form>
+    <div><b>
+<label for="name">Name</label>
+<input id ="Name" type="text" placeholder="Enter Full Name">
+</b>
+    </div>
+<div>
+    <b>
+<label for="email">Email</label>
+<input id="email" type="email"placeholder= "Enter Email">
+</b>
+</div>
+<div>
+    <b>
+<label for="password"> Password</label>
+<input id ="password" type="password" placeholder="Enter password">
+</b>
+</div>
+<div>
+<B>
+ <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+</B>
+</div>
+
+<div><B>
+<label for="course">Course</label>
+<select id="course" required>
+<option value="select course">-- select course-- </option>
+<option value="bsc">B.Sc.</option>
+<option value="bcom">B.Com.</option>
+<option value="ba">BA</option>
+<option value="btech">B.Tech</option>
+<option value="mca">MCA</option>
+</select>
+</B>
+</div>
+<div><B>
+<label for="contact">Contact No:</label>
+<input id=" contact " type="numbers" placeholder="Enter phone">
+</B>
+</div>
+
+<div><B>
+<label for="address">Address:</label>
+<textarea id="address" placehiolder="Enter your Address"></textarea>
+</B>
+</div>
+
+<div><B>
+<label for="terms">I agree to terms and conditions</label>
+<input id="terms" type="checkbox" required>
+</B>
+</div>
+<div>
+    <center>
+<button type="submit">SUBMIT</button>
+</center>
+</div>
+
+
+
+
+
+
+</body>
+</html>
