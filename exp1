@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RESUME -</title>
+
+    
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Resume- Abhinav Arora</h1>
+    <img src="tryusebefore_104_25022015111301.webp" alt="description of image" width="75" height="75"
+    <p class="contact">
+        Phone no: +91-812XXXXXXX | Email: ABCDE@gmail.com<br>
+                   City- Saharanpur, State-Uttar Pradesh | LinkedIn: abhinav_arora:
+    </p>
+
+    <h2>Professional Summary:</h2>
+    <p>
+      In my reference, I am recognized for creating a positive and well-managed classroom environment. I explain concepts clearly, use student-friendly teaching methods, and ensure every learner receives individual attention. I maintain discipline with kindness while keeping lessons engaging and effective.   
+
+    </p>
+
+    <h2>Experience:</h2>
+
+    <p><strong>Teacher — Athenia High school</strong><br>
+    City-Saharanpur , State- Uttar Pradesh | Years- 2   </p>
+    <ul>
+        <li>Good communication skills and taught english, science to class 6 to 8.</li>
+        <li>Ability to engage students and not making the lecture boring with help of many activities.</li>
+        <li>Maintained discipline and ensured smooth academic progress.</li>
+    </ul>
+
+    <h2>Education:</h2>
+    <p><strong>B.Ed from Aligarh Muslim University</strong> Year- 2007</p>
+    <p><strong>B.A. in english from Aligarh Muslim University</strong> Year- 2010</p>
+
+    <h2>Skills:</h2>
+    <ul>
+        <li>Classroom Management</li>
+        <li>Lesson Planning</li>
+        <li>Child-Centered Teaching</li>
+        <li>Communication Skills</li>
+       
+    </ul>
+
+    <h2>Certifications:</h2>
+    <ul>
+        <li>Physical education test</li>
+        <li>Physcometric Test</li>
+    </ul>
+
+    <h2>Languages Known:</h2>
+    <p>Hindi, English</p>
+
+</div>
+</body>
+</html>
