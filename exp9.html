@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Product Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+     
+       
+                     .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px; 
+}
+        
+        .grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+@media (min-width: 768px) { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+
+@media (min-width: 1024px) { 
+  .grid {
+    grid-template-columns: repeat(3, 1fr);      
+  }
+}
+    </style>
+</head>
+<body>
+
+    <h1>Responsive Product Grid</h1>
+
+    <div class="grid">
+        <div class="product">
+            <img src="BEST-IPAD-2048px-11thgen-pencil.jpg" width="300"height="300" alt="Product">
+            <h3>Sturdy Smartwatch</h3>
+            <p>INR 3000</p>
+        </div>
+
+        <div class="product">
+            <img src="iphone-16-review-lead-6724ffef2985f.avif" width="300" height="300" alt="Product">
+            <h3>Oxen leather belt</h3>
+            <p>INR 4500</p>
+        </div>
+
+        <div class="product">
+            <img src="analog.webp" width="300" height="300" alt="Product">
+            <h3>Lexus Analog Watch</h3>
+            <p>INR 8000</p>
+        </div>
+
+        <div class="product">
+            <img src="download.webp" width="300" height="300"alt="Product">
+            <h3>BellaVita Perfume</h3>
+            <p>INR 800</p>
+        </div>
+    </div>
+
+</body>
+</html>
